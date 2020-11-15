@@ -1,4 +1,80 @@
-p{
-    color: green;
+body{
+    background-image:url(../img/2.jpg);
+    background-repeat:repeat;
+}
+#container{
+    width: 1024px;
+    min-height: 800px;
+    margin: 0 auto;
+}
+#logo{
+    width: 400px;
+    height: 240px;
+}
+#menu{
+    width:1000px;
+    height:100px;
+    border-radius:50px;
+    margin-left: 300px;
+}
+#menu ul{
+   text-align:center;
+   margin:0;
+   padding-left:200px;
+   list-style-type:none;
+   
+}
+#menu ul li{
+   float:left;
+   width:180px;
+   height:100px;
+   margin:0 auto;
+   border-right:3px solid #000;
+   border-left:3px solid #000;
+   margin-right:-10px;
+}
+#menu ul li a{
+   width:170px;
+   line-height:100px;
+   text-decoration:none;
+   color:black;
+   display:inline-block;
+   font-size:17px;
+}
+#menu ul li a:hover{
+   background-color:#f76700;
+}
+#fotograf{
+    width: 300px;
+    height: 330px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.aciklama{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-style: oblique;
+    font-weight: bold;
     font-size: 50px;
+}
+.temizle{
+    clear: both;
+}
+#tiklabutton{
+    width: 342px;
+    height: 33px;
+    border: 2px solid black;
+    border-radius: 18px;
+    float: right;
+    margin: 30px 10px 0px 0px;
+    font-size: 22px;
+    background-color: grey;
+    text-decoration:none;
+}
+#tiklabutton:hover{
+    background-color: #f76700;
 }
